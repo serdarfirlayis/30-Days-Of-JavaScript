@@ -9,11 +9,14 @@ console.log(typeof 5);
 
 let firstName; // camelCase
 
-let youtubeChannelName = "Serdar";
-let channelAge = 11;
-let isChannelStillActive = true;
-let secondChannel = null;
-let channelMoney = undefined;
+let youtubeChannelName = "Serdar",
+  channelAge = 11,
+  isChannelStillActive = true,
+  secondChannel = null,
+  channelMoney = undefined
+
+const GRAVITY = 9.81;
+const PI = 3.14;
 
 console.log(
   youtubeChannelName,
