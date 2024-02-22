@@ -34,3 +34,18 @@ console.log(userOne == userTwo); // false
 let num1 = 3;
 let num2 = num1;
 console.log(num1 == num2); // true because references are the same
+
+// Long Literal Strings
+let longString2 = "This is a very long string which needs to wrap across multiple lines because \
+otherwise my code is too long.";
+
+// Template Literals
+let longString = `This is a very long string which needs to wrap across multiple lines because 
+otherwise my code is too long.`;
+
+let name = "serdar";
+let lastName = "firlayis";
+let fullName = `${name} ${lastName}`; // serdar firlayis
+
+/* Everything is an Object in JavaScript. 
+A string is a primitive type that means we can not modify it once it is created. */
